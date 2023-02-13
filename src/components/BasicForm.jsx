@@ -5,7 +5,7 @@ import Button from "../UI/Button";
 const isNotEmpty = (value) => value.trim() !== "";
 const isEmail = (value) => value.includes("@");
 
-const BasicForm = () => {
+const BasicForm = (props) => {
   const {
     value: firstName,
     isValid: firstNameIsValid,
